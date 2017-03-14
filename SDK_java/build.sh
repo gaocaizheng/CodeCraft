@@ -3,6 +3,7 @@ basepath=$(cd `dirname $0`; pwd)
 APP_HOME=$basepath
 
 #编译
+#编译
 echo building...
 MAKE_FILE=$APP_HOME/makelist.txt
 cd "$APP_HOME/code/cdn/src"
